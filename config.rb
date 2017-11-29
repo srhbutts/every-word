@@ -20,7 +20,7 @@
 # See the corresponding wordnik API page for more details on other params:
 # http://developer.wordnik.com/docs.html#!/words/getRandomWord_get_4
 
-options = {
+OPTIONS = {
     :has_dictionary_def => true,
     :include_part_of_speech => "",
     :exclude_part_of_speech => "",
