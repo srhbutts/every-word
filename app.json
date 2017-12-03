@@ -1,0 +1,42 @@
+{
+  "name": "Every Word Twitter Bot",
+  "description": "Simple ruby program to create \"every word\" twitter bots.",
+  "keywords": [
+    "twitter",
+    "twitter bots",
+    "wordnik",
+    "ruby"
+  ],
+  "website": "https://github.com/srhbutts/every-word",
+  "repository": "https://github.com/srhbutts/every-word",
+  "env": {
+    "CONSUMER_KEY": {
+      "description": "Consumer key from Twitter API.",
+      "required": "true"
+    },
+    "CONSUMER_SECRET": {
+      "description": "Consumer secret from Twitter API.",
+      "required": "true"
+    },
+    "ACCESS_TOKEN": {
+      "description": "Access token from Twitter API.",
+      "required": "true"
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "Access token secret from Twitter API.",
+      "required": "true"
+    },
+    "WORDNIK_KEY": {
+      "description": "Wordnik API key.",
+      "required": "true"
+    },
+    "EVERY_WORD_WORD": {
+      "description": "Choose the word that you want to correspond to your bot.",
+      "required": "true"
+    }
+},
+  "image": "heroku/ruby",
+  "addons": [
+    "Heroku Scheduler"
+  ]
+}
