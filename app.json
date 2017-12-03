@@ -37,6 +37,6 @@
 },
   "image": "heroku/ruby",
   "addons": [
-    "Scheduler"
+    "scheduler"
   ]
 }
