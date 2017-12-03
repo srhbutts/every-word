@@ -4,7 +4,8 @@ Every-word is a simple ruby program to create "every word" twitter bots in the s
 
 A readme file with more detailed instructions is coming, but in the meantime if you want to use it, just make sure to set the following env variables:
 
-```CONSUMER_KEY=
+```
+CONSUMER_KEY=
 CONSUMER_SECRET=
 ACCESS_TOKEN=
 ACCESS_TOKEN_SECRET=
